@@ -17,3 +17,17 @@ After that copy the files "DES_PCBC.dll" and "ManagedOpenSsl.dll" to your local 
 
 # Usage
 After you have added the needed files to your peach directory you should be able to use the transform command like this:
+```
+	<DataModel name="request">
+		<XmlElement name="mytest" elementName="test" mutable="false">
+			<Transformer class="DES_PCBC">
+				<Param name="Key" value="ABCDEF0123456789"/>
+				<Param name="IV" value="ABCDEF0123456789" />
+			</Transformer>	
+
+			<XmlElement name="xmlstart" elementName="start" mutable="false">
+				<String value="Blah XMLBattery Failure"/>
+			</XmlElement>
+		</XmlElement>
+	</DataModel>
+```
