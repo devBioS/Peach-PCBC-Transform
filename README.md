@@ -1,5 +1,6 @@
 # Peach-PCBC-Transform
 DES PCBC Transform for Peach Fuzzer
+
 This is a modified DES CBC function to act like PCBC and produce correct encrypted and decrypted results.
 
 # Info
@@ -12,7 +13,7 @@ and on the Peach.Core.dll version 3.1.124.0
 To get started, copy the files "DES_PCBC.dll" and "ManagedOpenSsl.dll" to your local peach root directory
 
 # Source Compile
-I compiled the source with Sharpdevelop v5, normally you should be able to just clone this repository any compile it yourself.
+I compiled the source with Sharpdevelop v5, normally you should be able to just clone this repository and compile it yourself.
 After that copy the files "DES_PCBC.dll" and "ManagedOpenSsl.dll" to your local peach root directory
 
 # Usage
